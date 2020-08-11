@@ -1,3 +1,10 @@
+#!/usr/bin/env python3
+"""
+server.py
+
+Serve a list of people.
+"""
+
 import csv
 
 from flask import Flask

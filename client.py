@@ -1,6 +1,9 @@
-# TODO
-# * make address a nested object
-# * make static type checking work
+#!/usr/bin/env python3
+"""
+client.py
+
+Get a list of people from the server and turn them into objects.
+"""
 
 from dataclasses import dataclass
 from typing import Mapping, List, Union
