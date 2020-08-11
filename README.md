@@ -1,5 +1,6 @@
 # Dataclasses Rock
-Demonstrating the unstoppable awesomeness that is Python Dataclasses. As a 
+Demonstrating the unstoppable awesomeness that is 
+[Python Dataclasses](https://docs.python.org/3/library/dataclasses.html). As a 
 semi-realistic example we load some objects based on JSON returned by an
 server.
 
@@ -26,6 +27,6 @@ python3 server.py
 curl -vvv localhost:8080
 ```
 
-## Using the client
+### Using the client
 
 TODO
