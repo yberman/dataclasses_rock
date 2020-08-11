@@ -29,4 +29,6 @@ curl -vvv localhost:8080
 
 ### Using the client
 
-TODO
+```python3
+python3 client.py
+````
