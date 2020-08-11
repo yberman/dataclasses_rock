@@ -58,6 +58,5 @@ python3 client.py
 * In server
     + deal with put requests
 * In client
-    + make address a nested object
     + get static type checking setup and working
     + put a new person on the server
