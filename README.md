@@ -3,19 +3,29 @@ Demonstrating the unstoppable awesomeness that is Python Dataclasses. As a
 semi-realistic example we load some objects based on JSON returned by an
 server.
 
-## Usage
+## Instruction
 
-```
-# setup virtualenv and download requirements
+### Instalation
+
+Setup virtualenv, enable it, and download requirements
+
+```bash
 python -m venv .venv
 source .venv/bin/activate
-# later you can use the "deactivate" command to leave the virtualenv
 pip install -r requirements
+```
 
-# start server
+Later you can use the `deactivate` command to leave the virtualenv.
+
+###  Starting and testing the Flask server
+
+```bash
 python3 server.py
-
 # in another window...
 # get a blob of json from the server
 curl -vvv localhost:8080
 ```
+
+## Using the client
+
+TODO
